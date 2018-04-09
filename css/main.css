@@ -1,0 +1,134 @@
+/* Split the screen in half */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 0;
+    overflow-x: hidden;
+    padding-top: 0px;
+    top: 52px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    background-color: #005900;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-color: #FBB338;
+  }
+  
+  /* If you want the content centered horizontally and vertically */
+  .centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Style the image inside the centered container, if needed */
+  .centered img {
+    width: 28vw;
+  }
+
+  .left-title {
+      font-weight: 600;
+      color: white;
+      font-size: 36pt;
+  }
+
+  .left-text {
+      color: lightgray;
+      font-size: 18pt;
+  }
+
+  .right-title {
+      color: black;
+      font-weight: 500;
+      font-size: 30pt;
+      margin:0 0 30px 0; 
+  }
+
+  .right-div {
+      text-align: left;
+  }
+
+  img.reward-img {
+      width: 80px;
+      padding-right:10px;
+      padding-bottom: 5px;
+  }
+
+  .reward-list {
+    list-style-type: none;
+    display:block;
+  }
+
+  .reward-list li{
+    margin:0 0 10px 0; 
+    width:100%;
+    display:block;
+  }
+
+  .center {
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  .center button {
+      width: 15vw;
+      height: 50px
+  }
+
+  .avail-title {
+    font-weight: 600;
+    color: white;
+    font-size: 30pt;
+    padding-bottom:0px;
+  }
+
+  .avail-list {
+      text-align: left;
+  }
+
+  .avail-list .list-group-item {
+    height: 50px;
+  }
+
+  .span-right {
+      float:right;
+
+     padding-left: 20px;
+     vertical-align: top;
+  }
+
+ .btn-add {
+     font-size: 10pt;
+ }
+
+.avail-creds {
+    color:lightgray;
+    padding-bottom: 20px;
+}
+
+
+.avail-warn {
+    color: red;
+    font-size:12pt;
+}
+
+.color-black {
+    color: black;
+}
+
+.navbar-inverse {
+    border-radius: 0 !important;
+}
+
+.navbar-brand {
+    color: white;
+}
