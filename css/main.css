@@ -32,6 +32,15 @@
     transform: translate(-50%, -50%);
     overflow-y: scroll;
   }
+
+  .centered-rewards {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    overflow-y: scroll;
+  }
   
   /* Style the image inside the centered container, if needed */
   .centered img {
@@ -104,13 +113,31 @@
 
   .span-right {
       float:right;
-        position:relative;
-     padding-left: 50px;
-     vertical-align: top;
+      position:relative;
+      padding-left: 50px;
+      vertical-align: top;
+      width: 15%;
+  }
+
+  .span-left {
+      float:left;
+      width: 67.5%;
+  }
+
+  .notification {
+    float:right;
+    width: 7.5%;
+    height: 100%;
+    background-color: pink;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 23px;
+    margin-right: 10px;
   }
 
  .btn-add {
      font-size: 10pt;
+     float: right;
  }
 
 .avail-creds {
