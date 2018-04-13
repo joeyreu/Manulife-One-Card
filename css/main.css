@@ -5,7 +5,6 @@
     position: fixed;
     z-index: 0;
     overflow-x: hidden;
-    overflow-y: scroll;
     padding-top: 0px;
     top: 52px;
   }
@@ -14,7 +13,6 @@
   .left {
     left: 0;
     background-color: #005900;
-    overflow-y: scroll;
   }
   
   /* Control the right side */
@@ -30,7 +28,6 @@
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
-    overflow-y: scroll;
   }
 
   .centered-rewards {
@@ -39,7 +36,6 @@
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
-    overflow-y: scroll;
   }
   
   /* Style the image inside the centered container, if needed */
